@@ -18,7 +18,7 @@ public class TableTests {
 //		System.setProperty("webdriver.gecko.driver", TestConstants.FIREFOX_PATH);
 //		WebDriver driver = new FirefoxDriver();
 		
-		System.setProperty("webdriver.chrome.driver", TestConstants.CHROME_PATH);
+		System.setProperty("webdriver.chrome.driver", TestConstants.MAC_CHROME_PATH);
 		driver = new ChromeDriver();
 		
 		driver.get(TestConstants.WEB_ORDERS_URL);
