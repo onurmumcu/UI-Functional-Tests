@@ -24,7 +24,7 @@ public class TableTests {
 		System.setProperty("webdriver.chrome.driver", TestConstants.MAC_CHROME_PATH);
 		driver = new ChromeDriver();
 		
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		driver.get(TestConstants.WEB_ORDERS_URL);
 		driver.findElement(By.id("ctl00_MainContent_username")).sendKeys("Tester");
 		driver.findElement(By.id("ctl00_MainContent_password")).sendKeys("test"+Keys.ENTER);
